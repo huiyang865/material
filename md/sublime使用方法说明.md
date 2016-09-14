@@ -3,7 +3,7 @@
 
 # 使用Package Control组件安装
 在安装各种sublime插件之前，可以安装package control组件，然后直接在线安装：
-1. 按Ctrl+`调出console（注：安装有QQ输入法的这个快捷键会有冲突的，输入法属性设置-输入法管理-取消热键切换至QQ拼音）
+1. 按Ctrl+\`调出console（注：安装有QQ输入法的这个快捷键会有冲突的，输入法属性设置-输入法管理-取消热键切换至QQ拼音）
 2. 粘贴以下代码到底部命令行并回车：
 	import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 3. 重启Sublime Text 3
@@ -18,7 +18,7 @@
 # sublime常用插件
 ## [Git](https://github.com/kemayo/sublime-text-git)
 在工作中，版本控制软件最常用的软件之一，而最流行的 VCS 是 Git。你是否厌倦了保存文本文件，并切换回终端运行一些 Git 命令。如果你能从文本编辑器本身执行 Git 命令，岂不是很好？
-## [Sublime Text](https://github.com/jisaacks/GitGutter) 
+## [Sublime Text](https://github.com/jisaacks/GitGutter)
 有了 Git 插件之后，GitGutter 更好的帮助开发者查看文件之前的改动和差异，提升开发效率。
 ## [Emmet](http://emmet.io/)
 Emmet 项目的前身是前端开发人员熟知的 Zen Coding（快速编写 HTML/CSS 代码的方案）。在 Sublime Text 编辑器中搭配 Emmet 插件真的是让你编码快上加快。
@@ -36,6 +36,6 @@ Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAuto
 类似于代码匹配，可以匹配括号，引号等符号内的范围
 
 ## Split Layouts
-允许你将你的许多文件放到很多分割开来的视窗中。如果你正在进行以测试为目的的开发(将 Python 代码放在一个视窗中，而测试脚本放在另一个视窗中)或者正在进行前端开发(将 HTML 代码放在一个视窗里，CSS/Javascript 代码放在另一个视窗里)的时候将会非常有用。 
+允许你将你的许多文件放到很多分割开来的视窗中。如果你正在进行以测试为目的的开发(将 Python 代码放在一个视窗中，而测试脚本放在另一个视窗中)或者正在进行前端开发(将 HTML 代码放在一个视窗里，CSS/Javascript 代码放在另一个视窗里)的时候将会非常有用。
 ## Code Snippets
 允许你通过一两个简单的关键字就能写出一段常用的代码片(Snippets)，从而增加你的生产效率。比如，你只需要打开一个文件，输入 “lorem” 然后敲击 tab 键，就会自动生成一段乱数假文(译者注： 一种用于测试文章或文字在不同字型、版型下看起来的效果等的文字)。又比如在 Python 代码中，你可以输入 “defs” 然后敲击 tab 键，你就能得到一段通用的函数定义。 同时，你还可以点击 Tools > New Snippet 来创建属于你自己的代码片。请参照这个[文档](http://sublimetext.info/docs/en/extensibility/snippets.html)来获取帮助。
