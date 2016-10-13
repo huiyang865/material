@@ -120,4 +120,4 @@ lda模型的python实现，算法采用sampling抽样
 - cd 到lda.py所在目录，执行命令:python lda.py
 
 # 总结
-本文的部分内容转自<http://www.hankcs.com/nlp/lda-java-introduction-and-implementation.html>。LDA主要将文件和词语用主题这个概念联系起来。首先分析文件中的主题，然后将所有文件中的词语主题划分。最后将文件与词语建立联系。
+本文的部分内容转自<http://www.hankcs.com/nlp/lda-java-introduction-and-implementation.html>和<https://github.com/a55509432/python-LDA>。LDA主要将文件和词语用主题这个概念联系起来。首先分析文件中的主题，然后将所有文件中的词语主题划分。最后将文件与词语建立联系。
