@@ -39,4 +39,5 @@
         for index, ques  空行可以去掉
 
 - print(stem_list[1:len(stem_list)]) 这个  写成  print(stem_list[1:])  就好
+- __init__.py  这个文件没用  可以删去
 
