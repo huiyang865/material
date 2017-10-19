@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  WordBox.cpp
+  WordBlob.cpp
+  test.cpp
+c1xx : fatal error C1083: 无法打开源文件: “test.cpp”: No such file or directory
+  CutWords.cpp
+e:\ocr_process\ocr_process\ocr_process\cutwords.cpp(240): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\ocr_process\ocr_process\ocr_process\cutwords.cpp(252): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\ocr_process\ocr_process\ocr_process\cutwords.cpp(265): warning C4101: “buf”: 未引用的局部变量
+  CutWord.cpp
+  Chinese_word_test.cpp
+e:\ocr_process\ocr_process\ocr_process\chinese_word_test.cpp(121): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+e:\ocr_process\ocr_process\ocr_process\chinese_word_test.cpp(129): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
